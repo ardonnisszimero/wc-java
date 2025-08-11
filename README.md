@@ -22,6 +22,11 @@ It can handle any plain `.txt` file and outputs the total word count to the cons
 ## ▶️ How to Run
 1. **Clone or download** this project.
 2. Place your input file in the project directory (e.g., `input.txt`).
-3. **Compile** the Java file:
+3. **Compile** the Maven project:
    ```bash
-   javac src/ccwc.java
+   mvn clean install
+   ```
+4. **Run** the program:
+   ```bash
+   java -jar wc-1
+   ```   
